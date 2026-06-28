@@ -26,3 +26,4 @@ tmp/
 # Ignore hidden directories
 .*/ 
 
+.nemar/
