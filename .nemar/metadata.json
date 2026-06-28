@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "PWIe",
+  "description": "This dataset contains event-related potential (ERP) data from a picture naming task with semantic priming. Participants named line drawings preceded by semantically related, identity-related, or unrelated English distractor words while 32-channel EEG was recorded. The study investigates how semantic and identity priming influences neural responses during picture naming, with potential applications to understanding lexical access and semantic processing in the brain.",
+  "methods_description": "EEG was recorded from 32 electrodes (left mastoid reference) at 500 Hz sampling rate with DC to 200 Hz bandpass filtering. Participants performed a picture naming task in which 100 unique line drawings (50 semantic, 50 identity category) were each presented twice, preceded by either semantically related, identity-related, or unrelated English distractor words (200 ms duration, 2000 ms inter-stimulus interval). Voice responses were digitized online and event markers were synchronized with EEG data for ERP averaging.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,44 +12,6 @@
     "Katherine J. Midgley": {},
     "and Karen Emmorey": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005932.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005932",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on005932",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds005932",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset contains event-related potential (ERP) data from a picture naming task with semantic priming. Participants named line drawings preceded by semantically related, identity-related, or unrelated English distractor words while 32-channel EEG was recorded. The study investigates how semantic and identity priming influences neural responses during picture naming, with potential applications to understanding lexical access and semantic processing in the brain.",
-  "methods_description": "EEG was recorded from 32 electrodes (left mastoid reference) at 500 Hz sampling rate with DC to 200 Hz bandpass filtering. Participants performed a picture naming task in which 100 unique line drawings (50 semantic, 50 identity category) were each presented twice, preceded by either semantically related, identity-related, or unrelated English prime words (200 ms duration, 2000 ms inter-stimulus interval). Voice responses were digitized online and event markers were synchronized with EEG data for ERP averaging.",
   "keywords": [
     {
       "term": "EEG"
@@ -66,7 +30,58 @@
     },
     {
       "term": "language processing"
+    },
+    {
+      "term": "distractor words"
+    },
+    {
+      "term": "priming effects"
+    },
+    {
+      "term": "identity priming"
     }
   ],
-  "source_hash": "f653541d46a75d9c8fc34d84b47b8acdb8a1605bbdfbda5e98be0acb4afc5758"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005932",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005932",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005932",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005932.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.82901/nemar.on005932",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "2.4 GB (59 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "3cb4e2820e1251ce6ade288aa6dbcf4456cf8df2dc6dd860de32177707ff6da8"
 }
