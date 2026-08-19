@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PWIe",
-  "description": "This dataset contains event-related potential (ERP) data from a picture naming task with semantic priming. Participants named line drawings preceded by semantically related, identity-related, or unrelated English distractor words while 32-channel EEG was recorded. The study investigates how semantic and identity priming influences neural responses during picture naming, with potential applications to understanding lexical access and semantic processing in the brain.",
-  "methods_description": "EEG was recorded from 32 electrodes (left mastoid reference) at 500 Hz sampling rate with DC to 200 Hz bandpass filtering. Participants performed a picture naming task in which 100 unique line drawings (50 semantic, 50 identity category) were each presented twice, preceded by either semantically related, identity-related, or unrelated English distractor words (200 ms duration, 2000 ms inter-stimulus interval). Voice responses were digitized online and event markers were synchronized with EEG data for ERP averaging.",
+  "description": "This dataset contains EEG recordings from a picture-word interference (PWI) naming study conducted at San Diego State University's NeuroCognition Laboratory. Participants named line drawings of objects preceded by semantically related, identity-related, or unrelated English distractor words, while 32-channel EEG and vocal responses were recorded. The dataset supports investigation of lexical-semantic access and word retrieval processes during picture naming.",
+  "methods_description": "Participants wore 32 head and face electrodes (left mastoid reference) and were presented with 100 unique black-and-white line drawings (50 Semantic, 50 Identity categories), each preceded by a related or unrelated English distractor word (200 ms prime, 2000 ms picture duration). Participants named each picture aloud, and their vocal responses were digitized online. EEG was sampled continuously at 500 Hz with a bandpass of DC to 200 Hz, with event markers stored for ERP averaging; raw data were imported into EEGLAB and saved as .set files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,28 +17,22 @@
       "term": "EEG"
     },
     {
-      "term": "event-related potentials"
+      "term": "picture-word interference"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "semantic priming"
     },
     {
-      "term": "picture naming"
-    },
-    {
       "term": "lexical access"
     },
     {
-      "term": "language processing"
-    },
-    {
-      "term": "distractor words"
-    },
-    {
-      "term": "priming effects"
-    },
-    {
-      "term": "identity priming"
+      "term": "naming task"
     }
   ],
   "related_identifiers": [
